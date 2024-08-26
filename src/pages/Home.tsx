@@ -7,11 +7,13 @@ import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
-    <IonPage>
-      <Header />
-      <Body />
-      <Footer />
-    </IonPage>
+    <>
+      <IonPage>
+        <Header />
+        <Body />
+        <Footer />
+      </IonPage>
+    </>
   );
 };
 
